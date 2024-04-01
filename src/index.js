@@ -31,7 +31,16 @@ const dicionario = Dict_porc(`Despesas=60,Investimento=30.0,Fundo Emergencial=5.
 const calculo = Calc(dicionario,2650)
 
 server.get('/',(req,res) => {
-    text = 'lol\nlolloll'
+    
+    text = `
+    // Este é um exemplo de várias linhas de texto JavaScript
+        console.log('Olá, mundo!');
+        for (let i = 0; i < 5; i++) {
+            console.log('Contagem:', i);
+        }
+        console.log('Fim da contagem.');
+    `
+
     return res.json(text)
 })
 
