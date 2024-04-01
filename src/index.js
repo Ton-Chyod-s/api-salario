@@ -33,12 +33,9 @@ const calculo = Calc(dicionario,2650)
 server.get('/',(req,res) => {
     
     text = `
-    // Este é um exemplo de várias linhas de texto JavaScript
-        console.log('Olá, mundo!');
-        for (let i = 0; i < 5; i++) {
-            console.log('Contagem:', i);
-        }
-        console.log('Fim da contagem.');
+    lolool
+    ahahaha
+    eh
     `
 
     return text
