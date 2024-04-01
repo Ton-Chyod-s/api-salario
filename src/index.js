@@ -33,7 +33,7 @@ const calculo = Calc(dicionario,2650)
 server.get('/',(req,res) => {
     
     text = {
-        'title': 'Api para o calculo salario',
+        'title': 'Api para o calculo do salario',
         '1.0':'Despesas',
         '2.0':'Investimento',
         '3.0':'Fundo Emergencial',
