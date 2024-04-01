@@ -34,13 +34,13 @@ server.get('/',(req,res) => {
     return res.json(calculo)
 })
 
-server.post('/salario/:id', (req, res) => {
+server.get('/salario/:id', (req, res) => {
     const id = req.params.id; // Access the dynamic segment
     const calculo = Calc(dicionario,id)
     res.send(calculo);
 })
 
-server.post('/atualizarDict/:desp/:inv/:fundoEmergencial/:podeGastar/:id', (req, res) => {
+server.get('/atualizarDict/:desp/:inv/:fundoEmergencial/:podeGastar/:id', (req, res) => {
     const despesas = req.params.desp
     const investimento = req.params.inv
     const fundoEmergencial = req.params.fundoEmergencial
