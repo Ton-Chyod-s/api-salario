@@ -32,11 +32,13 @@ const calculo = Calc(dicionario,2650)
 
 server.get('/',(req,res) => {
     
-    text = `
-    lolool
-    ahahaha
-    eh
-    `
+    text = {
+        'title': 'Api para o calculo em porcentagem do salario',
+        'baseUriSalario': '/salario/:id',
+        'baseUriAtualização': '/atualizarDict/:desp/:inv/:fundoEmergencial/:podeGastar/:id',
+        'version': '1.0',
+
+    }
 
     return res.json(text)
 })
