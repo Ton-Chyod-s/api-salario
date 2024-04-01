@@ -31,7 +31,10 @@ const dicionario = Dict_porc(`Despesas=60,Investimento=30.0,Fundo Emergencial=5.
 const calculo = Calc(dicionario,2650)
 
 server.get('/',(req,res) => {
-    return res.json(calculo)
+    text = //
+        lol
+    //
+    return res.json(text)
 })
 
 server.post('/salario/:id', (req, res) => {
