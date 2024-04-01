@@ -41,7 +41,7 @@ server.get('/',(req,res) => {
         console.log('Fim da contagem.');
     `
 
-    return res.json(text)
+    return text
 })
 
 server.get('/salario/:id', (req, res) => {
