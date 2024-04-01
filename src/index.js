@@ -38,7 +38,7 @@ server.get('/',(req,res) => {
     eh
     `
 
-    return text
+    return res.json(text)
 })
 
 server.get('/salario/:id', (req, res) => {
