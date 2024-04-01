@@ -34,13 +34,13 @@ server.get('/',(req,res) => {
     
     text = {
         'title': 'Api para o calculo do salario',
-        '00':'salario',
+        '0.0':'salario',
         '1.0':'Despesas',
         '2.0':'Investimento',
         '3.0':'Fundo Emergencial',
         '4.0':'Pode gastar',
-        'baseUriSalario': '/salario/00',
-        'baseUriAtualização': '/atualizarDict/1.0/2.0/3.0/4.0/00',
+        'baseUriSalario': '/salario/0.0',
+        'baseUriAtualização': '/atualizarDict/1.0/2.0/3.0/4.0/0.0',
         'version': '1.0',
 
     }
